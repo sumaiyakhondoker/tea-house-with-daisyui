@@ -37,9 +37,9 @@
 
 </head>
 <body class="font-manrope">
-    <header class="container mt-12 mx-auto ">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row gap-10 lg:gap-24">
+    <header class="container mx-auto my-12 p-4 ">
+        <div class="">
+            <div class="flex flex-col justify-between items-center lg:flex-row">
               <div>
                 <h1 class="text-7xl font-extrabold">
                     It's good <br> 
@@ -47,11 +47,13 @@
                     Tea House</h1>
                 <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum <br>
                  Satisfaction To Your Taste Buds.</p>
-                <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Explore More <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">
+                  Explore More 
+                  <i class="fa-solid fa-arrow-trend-up"></i></button>
               </div>
               
               <div >
-              <img src="images/banner.png" class="max-w-sm" />
+              <img src="images/banner.png" class="" />
             
               <!-- ratings badge -->
               <div class="-mt-14 flex gap-5 items-center bg-white drop-shadow-lg p-5 w-60 rounded-lg ">
@@ -68,7 +70,7 @@
           </div>
     </header>
 
-    <main class="container mx-auto">
+    <main class="container mx-auto p-4">
         <!-- featured section -->
         <section class="text-center my-24">
             <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
@@ -145,13 +147,13 @@
 
         <!-- super clients section -->
         <section class="my-24 flex flex-col lg:flex-row gap-12 bg-gradient-to-r from-gradient-start to-gradient-end px-16 py-24 rounded-xl " >
-          <div class="flex lg:pr-28 items-center " >
+          <div class="flex lg:pr-28 items-center bg-[url('images/bg_cup.png')] bg-no-repeat bg-bottom" >
             <div class="space-y-5">
               <h2 class="text-5xl font-extrabold text-white">
                 Meet Our Super
                 <br>
                 Clients</h2>
-                <p class=" font-medium text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p class=" font-medium text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                 <button class="btn bg-white text-orange-500 text-xl font-bold">Show All</button>
             </div>
           </div>
@@ -252,17 +254,15 @@
 
     </main>
 
-
-    <footer class="p-10 lg:py-10 lg:px-40 bg-gradient-to-r from-[#FF00001A] to-[#FF89381A]">
-      <div class="py-5 lg:py-14  flex justify-between">
-        <img src="images/cup.png " alt="" class="mr-20 lg:mr-0">
+    <footer class="p-4 lg:px-48 py-10 bg-gradient-to-r from-[#FF00001A] to-[#FF89381A]">
+      <div class="flex justify-between my-10 lg:my-24">
+        <img src="images/cup.png" alt="">
         <p>
-          <span class="mr-4">Ready to get strated?</span>
-          <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Get Started</button>
+          <span>Ready to get started?</span>
+          <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white" >Get Started</button>
         </p>
       </div>
-
-      <div class="footer">
+      <div  class="footer ">
         <nav>
           <h6 class="footer-title">Services</h6> 
           <a class="link link-hover">Branding</a>
@@ -284,30 +284,27 @@
           <a class="link link-hover">Cookie policy</a>
         </nav> 
         <form>
-          <h6 class="footer-title">Subscribe to our newsletter</h6> 
+          <h6 class="footer-title">Newsletter</h6> 
           <fieldset class="form-control w-80">
             <label class="label">
               <span class="label-text">Enter your email address</span>
             </label> 
-            <div class="join">
-              <input type="text" placeholder="username@site.com" class="bg-transparent border-b-2 border-black" /> 
-              <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white rounded-full ">
+            <div class="">
+              <input type="text" placeholder="username@site.com" class=" py-4 bg-transparent border-b-2 border-black" /> 
+              <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white rounded-full">
                 <i class="fa-solid fa-chevron-right"></i>
               </button>
             </div>
           </fieldset>
         </form>
-       
       </div>
-      <div class="text-center mt-24">
+
+      <div class="mt-10 text-center">
         <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
 
       </div>
-      
-      
-
     </footer>
-
+    
     
 </body>
 </html>
